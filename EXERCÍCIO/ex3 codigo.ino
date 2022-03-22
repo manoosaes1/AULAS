@@ -11,8 +11,14 @@ void loop()
   i=0;
     while (i<=5){
     digitalWrite (i, HIGH);
-    delay (1000);
-     digitalWrite (i,LOW);
+    delay (2000);
+     
+    i++;
+  }
+  i=0;
+  while (i<=5){
+    digitalWrite (i, LOW);
+     
     i++;
   }
 }
