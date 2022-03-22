@@ -16,5 +16,6 @@ estadoBotao = digitalRead(botao);
   {
     digitalWrite(led,LOW);
   }
+  delay(10);
 }
   
